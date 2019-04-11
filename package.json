@@ -1,0 +1,21 @@
+{
+  "name": "log",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "cors": "^2.8.5",
+    "install": "^0.12.2",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "npm": "^6.9.0",
+    "promise-mysql": "^3.3.1"
+  }
+}

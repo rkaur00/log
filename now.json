@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "name": "log",
+    "env": {
+        "DBHOST": "mytestdb.c4iwgy3inuws.us-east-2.rds.amazonaws.com",
+        "DBPORT": "3306",
+        "DBUSER": "ravinder1203",
+        "DBPASSWORD": "man05JAS",
+        "DBNAME": "log"
+      },
+      "builds": [
+        { "src": "index.js", "use": "@now/node" }
+      ],
+      "routes": [
+        { "src": "/(.*)", "dest": "/index.js" }
+      ]
+  }
